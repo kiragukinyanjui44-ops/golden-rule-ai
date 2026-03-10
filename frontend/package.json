@@ -1,0 +1,1 @@
+{\n  "name": "golden-rule-ai",\n  "version": "1.0.0",\n  "scripts": {\n    "dev": "vite",\n    "build": "vite build",\n    "serve": "vite preview"\n  },\n  "dependencies": {},\n  "devDependencies": {\n    "vite": "latest",\n    "tailwindcss": "latest",\n    "postcss": "latest",\n    "typescript": "latest"\n  }\n}

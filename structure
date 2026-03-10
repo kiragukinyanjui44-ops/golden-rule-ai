@@ -1,0 +1,102 @@
+golden-rule-ai/
+├── frontend/                    # Vite + React + TypeScript
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ui/
+│   │   │   │   ├── Button.tsx
+│   │   │   │   ├── GlassCard.tsx
+│   │   │   │   ├── ReflectionCard.tsx
+│   │   │   │   ├── Accordion.tsx
+│   │   │   │   ├── PricingCard.tsx
+│   │   │   │   ├── Navbar.tsx
+│   │   │   │   └── Footer.tsx
+│   │   │   ├── sections/
+│   │   │   │   ├── Hero.tsx
+│   │   │   │   ├── UniversalCreed.tsx
+│   │   │   │   ├── HowItWorks.tsx
+│   │   │   │   ├── WhoItFor.tsx
+│   │   │   │   ├── PricingSection.tsx
+│   │   │   │   └── FinalCTA.tsx
+│   │   │   ├── ai/
+│   │   │   │   ├── ReflectionInterface.tsx
+│   │   │   │   ├── ReflectionCard.tsx
+│   │   │   │   └── ReflectionInput.tsx
+│   │   │   ├── auth/
+│   │   │   │   ├── SignUp.tsx
+│   │   │   │   ├── SignIn.tsx
+│   │   │   │   └── ProtectedRoute.tsx
+│   │   │   ├── dashboard/
+│   │   │   │   ├── Dashboard.tsx
+│   │   │   │   ├── ReflectionLibrary.tsx
+│   │   │   │   ├── GrowthTimeline.tsx
+│   │   │   │   └── UsageStats.tsx
+│   │   │   ├── blog/
+│   │   │   │   ├── BlogList.tsx
+│   │   │   │   ├── BlogPost.tsx
+│   │   │   │   ├── BlogAdmin.tsx
+│   │   │   │   └── BlogEditor.tsx
+│   │   │   └── pricing/
+│   │   │       └── PricingPlans.tsx
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── Reflect.tsx
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Blog.tsx
+│   │   │   ├── Pricing.tsx
+│   │   │   └── NotFound.tsx
+│   │   ├── hooks/
+│   │   │   ├── useReflection.ts
+│   │   │   ├── useAuth.ts
+│   │   │   └── useApi.ts
+│   │   ├── utils/
+│   │   │   ├── api.ts
+│   │   │   ├── constants.ts
+│   │   │   └── formatting.ts
+│   │   ├── styles/
+│   │   │   └── globals.css
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── public/
+│   ├── vite.config.ts
+│   ├── tsconfig.json
+│   ├── tailwind.config.ts
+│   ├── postcss.config.js
+│   └── package.json
+├── backend/                     # Node.js + Express + TypeScript
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── auth.ts
+│   │   │   ├── reflections.ts
+│   │   │   ├── blog.ts
+│   │   │   ├── subscriptions.ts
+│   │   │   └── ai.ts
+│   │   ├── controllers/
+│   │   │   ├── authController.ts
+│   │   │   ├── reflectionController.ts
+│   │   │   ├── blogController.ts
+│   │   │   ├── subscriptionController.ts
+│   │   │   └── aiController.ts
+│   │   ├── middleware/
+│   │   │   ├── auth.ts
+│   │   │   ├── errorHandler.ts
+│   │   │   └── validation.ts
+│   │   ├── services/
+│   │   │   ├── aiService.ts
+│   │   │   ├── stripeService.ts
+│   │   │   └── emailService.ts
+│   │   ├── utils/
+│   │   │   ├── logger.ts
+│   │   │   ├── validators.ts
+│   │   │   └── config.ts
+│   │   ├── server.ts
+│   │   └── index.ts
+│   ├── prisma/
+│   │   ├── schema.prisma
+│   │   └── migrations/
+│   ├── .env.example
+│   ├── tsconfig.json
+│   ├── package.json
+│   └── .gitignore
+├── .gitignore
+├── README.md
+└── docker-compose.yml
